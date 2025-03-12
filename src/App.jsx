@@ -55,8 +55,6 @@ function App() {
       alert('No text to copy!');
     }
   }
-
-
   function words(para) {
     const passage = para.split(' ');
     passage.filter((res) => {
