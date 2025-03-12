@@ -1,0 +1,14 @@
+.buttonStyle{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 7px;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    transition: all 0.3s ease;
+}
+
+.buttonStyle:hover{
+    background-color: #dc3545;
+    color: aliceblue;
+}
