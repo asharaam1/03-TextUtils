@@ -1,12 +1,102 @@
-# React + Vite
+# 🛠️ Text Toolbox (Text Utils App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Text Toolbox is a simple React.js application that allows users to perform various text manipulation tasks such as converting text to uppercase/lowercase, clearing input, copying text, and removing extra spaces. It also provides a quick text summary like total characters and words.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Convert text to **Uppercase**
+- ✅ Convert text to **Lowercase**
+- ✅ **Clear** all input text
+- ✅ **Copy** text to clipboard
+- ✅ **Remove extra spaces**
+- ✅ View **summary**: word count & character count
+- ✅ **Responsive UI** using Bootstrap
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧑‍💻 Tech Stack
+
+- ⚛️ React.js (Vite)
+- 💅 CSS
+- 🅱️ Bootstrap 5
+
+---
+
+## 📁 Project Structure
+
+```
+text-toolbox/
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── btn.css
+│   │   ├── Button.jsx
+│   │   └── Navbar.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── README.md
+├── vite.config.js
+└── .gitignore
+```
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/asharaam1/03-TextUtils.git
+cd 03-TextUtils
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Visit [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🖼️ Screenshot
+
+![App Preview](src/assets/TextUtils.jpg)
+
+---
+
+## 🔧 Folder/Component Details
+
+- **App.jsx** – Main component containing logic and UI.
+- **Button.jsx** – Reusable button component with styling.
+- **Navbar.jsx** – Responsive navigation bar using Bootstrap.
+- **App.css** – Custom styles for layout and components.
+
+---
+
+## 💡 Future Enhancements
+
+- Add **Dark Mode** toggle
+- Integrate **LocalStorage** to save text history
+
+---
+
+### ✨ Developed by: Asha Ram
+
+Feel free to fork, star ⭐, and contribute! Contributions are welcome 🙌
