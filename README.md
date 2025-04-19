@@ -63,6 +63,7 @@ cd 03-TextUtils
 
 ```bash
 npm install
+npm install bootstrap
 ```
 
 ### 3. Start the development server
